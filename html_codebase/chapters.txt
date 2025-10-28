@@ -1,0 +1,43 @@
+Chapter 1:Introduction to HTML
+
+1.1-First.html 
+1.2-Elements and Attributes.html 
+1.3-Indentation.html — Proper formatting and readability
+1.4-Comments in HTML.html 
+
+Chapter 2- Text and Structure
+
+2.1-Headings in HTML.html 
+2.2-Paragraph.html 
+2.3-Formatting.html 
+2.4-HTML Links.html 
+
+Chapter 3-Media and Images
+
+3.1-Image tag.html 
+3.2-Audio and Video.html 
+
+Chapter 4-Lists and Tables
+
+4.1-Lists.html — Ordered, unordered, and description lists
+4.2-Tables.html — Creating tables
+4.3-Nested Tables.html — Tables inside tables
+
+Chapter 5-Layout and Containers
+5.1 13-Div and Span.html — Grouping and styling content
+5.2 14-Iframe.html — Displaying webpages inside pages
+5.3 16-Embedding.html — Embedding external content
+
+
+Chapter 6: Forms and Inputs
+
+6.1 Forms.html 
+6.2 HTML Input Attribute.html 
+6.3 Datalists.html 
+6.4 Labels, Fieldsets and Legends.html
+
+📓 Chapter 7: Advanced Topics
+
+7.1 17-Entities in HTML.html — Special HTML characters
+7.2 18-Image Mapping.html — Clickable areas on images
+7.3 23-SEO Tags.html — SEO-friendly HTML tags

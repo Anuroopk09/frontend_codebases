@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Mapping</title>
+</head>
+
+<body>
+    <!-- Image mapping in HTML is a technique that allows specific regions of an image to be defined as clickable areas, 
+     each linking to different destinations. These regions can be rectangles(rect), circles(circle), or polygons(poly), and are defined using 
+     coordinate points relative to the image. -->
+    <!-- Syntax:<img src="path of the image file" alt="" usemap=" define the name of the map here, lets say #image-map ">
+     <map name=""the name defined earlier,image-map>
+        define areas here 
+        <area shape="rect" coords="exact coordinates of the clickable area in the image"href="link of the place you want to redirect to after clicking on the shape">
+     </map> -->
+    <!-- go to image-map.net to extract the exact coordinates in the image -->
+
+
+    <img src="./media/Apple-Intelligence-starting-next-month_big.jpg.large.jpg" usemap="#image-map">
+
+    <map name="image-map">
+        <area target="_blank" alt="iPhone" title="iPhone"
+            href="https://www.apple.com/in/shop/buy-iphone/iphone-17-pro/6.3%22-display-256gb-cosmic-orange?afid=p240%7Cgo~cmp-11189655312~adg-185494852499~ad-773651676886_pla-2439184918239~dev-c~ext-~prd-MG8H4HN/A-IN~mca-5055540~nt-search&amp;cid=aos-in-kwgo-pla-iphone--product-MG8H4HN/A-IN"
+            coords="81,242,174,444" shape="rect">
+        <area target="_blank" alt="iPad" title="iPad"
+            href="https://www.amazon.in/Apple-iPad-Air-11%E2%80%B3-chip/dp/B0DZ7T1MP9/ref=asc_df_B0DZ7T1MP9?mcid=1f22a7e1ab2436fa801477741fe7b0b6&amp;tag=googleshopdes-21&amp;linkCode=df0&amp;hvadid=709855510308&amp;hvpos=&amp;hvnetw=g&amp;hvrand=15954644346699737097&amp;hvpone=&amp;hvptwo=&amp;hvqmt=&amp;hvdev=c&amp;hvdvcmdl=&amp;hvlocint=&amp;hvlocphy=9181043&amp;hvtargid=pla-2422216486495&amp;psc=1&amp;gad_source=1"
+            coords="492,199,178,443" shape="rect">
+        <area target="_blank" alt="Mac" title="Mac"
+            href="https://www.amazon.in/Apple-MacBook-13-inch-10-core-Unified/dp/B0DZDDQ429/ref=asc_df_B0DZDDQ429?mcid=5b67f9d0a3c53560a3e52f754aa2614b&amp;tag=googleshopdes-21&amp;linkCode=df0&amp;hvadid=709855510254&amp;hvpos=&amp;hvnetw=g&amp;hvrand=14285400192365407192&amp;hvpone=&amp;hvptwo=&amp;hvqmt=&amp;hvdev=c&amp;hvdvcmdl=&amp;hvlocint=&amp;hvlocphy=9181043&amp;hvtargid=pla-2420559132209&amp;psc=1&amp;gad_source=1"
+            coords="885,123,499,433" shape="rect">
+    </map>
+
+</body>
+
+</html>

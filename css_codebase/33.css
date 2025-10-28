@@ -1,0 +1,38 @@
+ /* 1. Attribute Selector */
+ a[href="https://example.com"] {
+     color: red;
+ }
+
+ /*2. Universal Selector */
+ * {
+     color: red;
+ }
+
+
+ /* 3.Combinator Selector */
+
+ /* 3.1 Descendant Combinatory(Child at any stage) */
+
+ .red-p span{
+    color: green;
+ }
+
+ /* 3.2 Child Combinatory(Direct Child)*/
+ .red-p>span{
+    color: green;
+ }
+
+ /* 3.3 Adjacent Combinatory(right after sibling) */
+ .red-p+h1{
+    color: aqua;
+ }
+
+ /* 3.4 General Sibling Combinatory(all siblings) */
+ .red-p ~h1{
+    color: green;
+ }
+
+ /* 3.5 General Sibling Combinatory(right after sibling)*/
+ .red-p,h1{
+    color: green;
+ }

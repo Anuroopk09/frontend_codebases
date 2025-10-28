@@ -1,0 +1,49 @@
+==============================
+  React Codebase – Introduction Phase
+==============================
+
+1. What is React:
+   - JavaScript library for building user interfaces.
+   - Helps create **interactive UIs**.
+   - Component-based architecture (conceptual, but we won’t cover components yet).
+   - Popular for Single Page Applications (SPA).
+
+2. Prerequisites:
+   - Node.js installed (v18+ recommended)
+   - npm (comes with Node.js)
+   - Basic HTML, CSS, JavaScript knowledge
+
+3. Setting up a React Project:
+
+   Option 1: Using Vite (Recommended)
+   -----------------------------------
+   # Create project
+   npm create vite@latest my-react-app
+   # Choose framework: React
+   # Choose variant: JavaScript or TypeScript
+   cd my-react-app
+   npm install
+   npm run dev
+
+   Option 2: Using Create React App
+   --------------------------------
+   npx create-react-app my-react-app
+   cd my-react-app
+   npm start
+
+4. Minimal Folder Structure:
+   my-react-app/
+   ├── public/               # Static files
+   │   └── index.html        # Main HTML page
+   ├── src/                  # Source code
+   │   ├── App.jsx           # Main app component placeholder
+   │   └── main.jsx          # Entry point
+   ├── package.json
+   └── vite.config.js / react-scripts config
+
+5. Running the App:
+   - Development server → npm run dev (Vite) or npm start (CRA)
+   - Open browser → http://localhost:5173 (Vite) or http://localhost:3000 (CRA)
+   - Edit files in src/ → Browser reloads automatically
+
+

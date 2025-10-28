@@ -1,0 +1,38 @@
+p {
+    border: 1px solid red;
+    cursor: crosshair;      /* Crosshair cursor (like a plus sign) */
+}
+
+
+
+    /* Common Cursor Types */
+    /* default     → Standard arrow cursor */
+    /* pointer     → Hand cursor (used for links/buttons) */
+    /* text        → I-beam cursor (used for text selection) */
+    /* move        → 4-way arrow (used for dragging/moving) */
+    /* wait        → Loading cursor (hourglass/spinner) */
+    /* help        → Question mark cursor */
+    /* progress    → Loading + arrow (non-blocking task) */
+    /* crosshair   → Plus-sign style cursor */
+    /* not-allowed → Red circle with a line (for restricted actions) */
+    /* no-drop     → Indicates dropping not allowed */
+    /* grab        → Open hand (used for draggable elements) */
+    /* grabbing    → Closed hand (while dragging) */
+    /* cell        → Small cross (used in spreadsheet grids) */
+    /* alias       → Indicates shortcut creation */
+    /* copy        → Indicates copy operation */
+    /* context-menu→ Context menu is available */
+    /* col-resize  → Horizontal column resize */
+    /* row-resize  → Vertical row resize */
+    /* n-resize    → Resize north (up) */
+    /* s-resize    → Resize south (down) */
+    /* e-resize    → Resize east (right) */
+    /* w-resize    → Resize west (left) */
+    /* ne-resize   → Resize northeast */
+    /* nw-resize   → Resize northwest */
+    /* se-resize   → Resize southeast */
+    /* sw-resize   → Resize southwest */
+    /* zoom-in     → Magnifying glass with plus sign */
+    /* zoom-out    → Magnifying glass with minus sign */
+    /* none        → No cursor displayed */
+

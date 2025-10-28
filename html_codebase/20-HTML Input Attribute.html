@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Input Attributes</title>
+</head>
+
+<body>
+    <!-- In HTML, an <input> attribute is extra information you give to an input box to tell it how to behave or look. -->
+    <!-- Syntax: <input attr1="" attr2="" att3=""> -->
+    <!-- type → Specifies the kind of input (text, number, password, email, etc.)
+               ------Types of attributes------
+    name → Gives a name to the input for form submission.
+    placeholder → Shows a hint inside the input before typing,disappears when text written over it and appears if no text
+    required → Makes filling the input mandatory.
+    readonly → Makes the input uneditable but visible.
+    disabled → Makes the input inactive and unclickable.
+    value → Sets the default text or value inside the input.
+    maxlength → Limits the maximum number of characters you can type.
+    min / max → Sets the smallest or largest value for number or date inputs.
+    step → Defines the step size for number or range inputs.
+    autocomplete → Suggests previously entered values (on or off).
+    autofocus → Automatically puts the cursor in this input when page loads.
+    pattern → Specifies a text pattern the input must match (like a regex).
+    size → Sets the visible width of the input box in characters.
+    multiple → Allows selecting multiple values (for file or email inputs). -->
+    <form>
+        <!-- Text input with 'name' -->
+        <input type="text" name="username" placeholder="Enter your name">
+        <!-- 'name' identifies input when form is submitted -->
+        <br><br>
+
+        <!-- Email input with 'required' -->
+        <input type="email" placeholder="Enter your email" required>
+        <!-- 'required' makes it mandatory to fill -->
+        <br><br>
+
+        <!-- Password input with 'maxlength' -->
+        <input type="password" placeholder="Enter password" maxlength="12">
+        <!-- 'maxlength' limits characters typed to 12 -->
+        <br><br>
+
+        <!-- Number input with 'min' and 'max' -->
+        <input type="number" placeholder="Enter your age" min="1" max="100">
+        <!-- User can only enter numbers between 1 and 100 -->
+        <br><br>
+
+        <!-- Date input with 'readonly' -->
+        <input type="date" readonly>
+        <!-- 'readonly' makes input uneditable but visible -->
+        <br><br>
+
+        <!-- File input with 'disabled' -->
+        <input type="file" disabled>
+        <!-- 'disabled' makes input inactive -->
+        <br><br>
+
+        <input type="submit" value="Submit">
+    </form>
+
+
+
+</body>
+
+</html>

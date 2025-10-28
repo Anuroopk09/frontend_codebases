@@ -1,0 +1,45 @@
+.para {
+    width: 500px;                    /* Sets the width of the text block */
+    color: blue;                   /* Sets the text color to blue */
+    border: 2px solid black;       /* Sets a 2px solid black border around the text block */
+    text-align: justify;             /* Aligns the text evenly along both left and right edges */
+    direction: rtl;                  /* Sets text direction from right to left */
+    text-decoration: underline;      /* Adds an underline to the text */
+    text-transform: uppercase;       /* Converts all letters in the text to uppercase */
+    line-height: 30px;               /* Sets the space between lines of text */
+    text-indent: 5px;                /* Indents the first line of text by 5px */
+    letter-spacing: 5px;             /* Sets the spacing between individual letters */
+    word-spacing: 5px;               /* Sets the spacing between words */
+    word-wrap: break-word;           /* Breaks long words onto the next line if needed */
+    text-shadow: 5px 10px 5px red; /* Adds a shadow to the text: horizontal offset, vertical offset, blur radius, color */
+}
+
+/* Additional Notes on Text Properties:
+
+text-align:
+- left      : Aligns text to the left edge (default)
+- right     : Aligns text to the right edge
+- center    : Centers the text
+- justify   : Stretches text so that each line has equal width
+
+text-decoration:
+- none        : Removes any decoration (default)
+- underline   : Underlines the text
+- overline    : Adds a line above the text
+- line-through: Strikes through the text
+- blink       : Makes the text blink (rarely used)
+
+text-transform:
+- none       : Default, no transformation
+- uppercase  : Converts all letters to uppercase
+- lowercase  : Converts all letters to lowercase
+- capitalize : Capitalizes the first letter of each word
+
+word-wrap / overflow-wrap:
+- normal       : Words will only break at normal break points (default)
+- break-word   : Forces long words to break and wrap onto the next line
+- anywhere     : Breaks words at any character if necessary (CSS3)
+
+text-shadow:
+- horizontal-offset vertical-offset blur-radius color
+*/

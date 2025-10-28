@@ -1,0 +1,69 @@
+/* 1. Adding a Background Color */
+body {
+    background-color: aqua; /* sets background color for the whole page */
+}
+
+.para1 {
+    background-color: red; /* sets background color for this specific element */
+}
+
+/* 2. Adding a Background Image */
+/* Syntax: background-image: url(path of the image) */
+.para2 {
+    background-image: url("./images/1.jpeg");
+    background-repeat: no-repeat;                  /* show the image only once */
+    background-position: center;                   /* place the image in the center */
+    background-size: 50% 100%;                     /* set image width to 50% and height to 100% of the element, also accepts pixels */
+    background-attachment: scroll;                 /* background moves with the page */
+    /* background: url(./images/1.jpeg) no-repeat fixed 5% 10%; Shortcut*/
+}
+
+
+
+/* 3. Background Repeat Options */
+/* 
+background-repeat: repeat;           → repeats both horizontally and vertically  
+background-repeat: repeat-x;         → repeats horizontally only  
+background-repeat: repeat-y;         → repeats vertically only  
+background-repeat: no-repeat;        → shows only once  
+background-repeat: space;            → repeats with equal space between images  
+background-repeat: round;            → stretches/shrinks image to fit without cutting  
+background-repeat: repeat no-repeat; → repeats horizontally only  
+background-repeat: no-repeat repeat; → repeats vertically only  
+*/
+
+/* 4. Background Position Options */
+/* 
+background-position: left top;       → top-left corner  
+background-position: left center;    → vertically centered, left  
+background-position: left bottom;    → bottom-left corner  
+background-position: right top;      → top-right corner  
+background-position: right center;   → vertically centered, right  
+background-position: right bottom;   → bottom-right corner  
+background-position: center top;     → top, horizontally centered  
+background-position: center center;  → center both vertically & horizontally  
+background-position: center bottom;  → bottom, horizontally centered  
+background-position: x% y%;          → custom percentages (e.g., 50% 50% = center)  
+background-position: xpx ypx;        → custom pixel values (e.g., 10px 20px from top-left)  
+*/
+/* 5. Background Size Options */
+
+/* 
+background-size: auto;           → default size, keeps original image dimensions  
+background-size: cover;          → scales the image to completely cover the element, may crop parts of it  
+background-size: contain;        → scales the image to fit entirely inside the element, no cropping  
+background-size: 50% 100%;       → sets custom width and height (width 50%, height 100% of element)  
+background-size: 200px 100px;    → sets custom width and height in pixels  
+background-size: 100% auto;      → full width of the element, height scales automatically  
+background-size: auto 100%;      → full height of the element, width scales automatically  
+background-size: initial;        → sets property to default (auto)  
+background-size: inherit;        → inherits size from parent element  
+*/
+
+
+/* 6. Background Attachment Options */
+/* 
+background-attachment: scroll;   → moves with the page (default)  
+background-attachment: fixed;    → stays fixed while content scrolls  
+background-attachment: local;    → scrolls within the element’s content  
+*/

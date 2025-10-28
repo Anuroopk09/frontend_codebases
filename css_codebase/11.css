@@ -1,0 +1,22 @@
+div p {
+    border: 1px solid green;
+    background-color: aqua;
+    width: 500px;
+    margin: 100px;
+    padding: 20px;
+    box-shadow: 10px 20px 5px grey ;
+}
+
+/* 
+box-shadow: Adds shadow effects around an element to create depth and highlight it visually. 
+Syntax: 
+box-shadow: horizontal-offset vertical-offset blur-radius color;
+
+Example:
+box-shadow: 10px 20px 5px grey;
+→ 10px → moves the shadow 10px to the right
+→ 20px → moves the shadow 20px down
+→ 5px  → controls the blur (higher value = softer shadow)
+→ grey → sets the color of the shadow
+
+*/

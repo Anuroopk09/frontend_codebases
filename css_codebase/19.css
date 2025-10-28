@@ -1,0 +1,15 @@
+#green {
+    color: green;
+}
+
+#blue {
+    color: red;
+}
+
+#initial {
+    color: initial;   /* Resets the color to the browser's default (usually blue for links) */
+}
+
+#inherit {
+    color: inherit;   /* Inherits the color from its parent element (takes green from the div) */
+}

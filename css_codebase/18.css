@@ -1,0 +1,20 @@
+#div1 {
+    background-color: blueviolet;
+    width: 600px;
+    height: 150px;
+}
+
+#div2 {
+    background-color: chocolate;
+    width: 600px;
+    height: 150px;
+    padding: 50px;
+    border: 10px solid black;
+    box-sizing: border-box;
+
+}
+
+/* box-sizing: Defines how the total width and height of an element are calculated.
+   Using "border-box" makes the width and height include padding and border, 
+   preventing the element from growing beyond its set size.Otherwise (default "content-box"), 
+   padding and border are added outside the set width and height, increasing the element’s total size. */

@@ -1,0 +1,39 @@
+p::first-letter{
+    font-size: 35px;
+}
+
+h1::before{
+    content: "Added before ";
+}
+
+h1::after{
+    content: " Added After";
+}
+
+/*
+CSS PSEUDO-ELEMENTS
+
+::first-letter   → Selects the first letter of the first line of a block-level element.
+
+::first-line     → Selects the first line of text in a block-level element.
+
+::before         → Inserts generated content before the content of an element.
+
+::after          → Inserts generated content after the content of an element.
+
+::selection      → Selects the portion of text that a user has highlighted.
+
+::placeholder    → Styles the placeholder text inside an input or textarea.
+
+::marker         → Styles the marker (bullet or number) of list items.
+
+::backdrop       → Styles the background of elements in fullscreen mode.
+
+::file-selector-button → Styles the button in file upload inputs.
+
+::cue            → Styles WebVTT cues in media (like captions).
+
+::part()         → Styles parts of elements that use Shadow DOM.
+
+::slotted()      → Styles elements distributed into a slot in Shadow DOM.
+*/

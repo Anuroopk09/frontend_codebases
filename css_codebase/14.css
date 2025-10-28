@@ -1,0 +1,49 @@
+#overflow {
+    border: 1px solid grey;
+    height: 500px;
+    width: 300px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    resize: both;  /* The resize property allows the user to manually adjust the element's size (width and/or height) using a drag handle */
+    
+}
+
+    /*
+    📜 CSS Overflow — Controls what happens when content 
+    overflows (goes beyond) an element’s box.
+
+    ✳️ Main Properties:
+
+    1. overflow
+       → Shorthand that applies to both X (horizontal) and Y (vertical) axes.
+       → Example: overflow: auto;
+
+    2. overflow-x
+       → Controls horizontal overflow (left-right content).
+       → Example: overflow-x: scroll;
+
+    3. overflow-y
+       → Controls vertical overflow (top-bottom content).
+       → Example: overflow-y: hidden;
+
+    ⚙️ Possible Values:
+
+    • visible  → Default value. Content spills out of the box (no clipping, no scroll).
+    • hidden   → Extra content is clipped (cut off), not visible, no scrollbar.
+    • scroll   → Always shows a scrollbar (even if content fits).
+    • auto     → Shows scrollbar only when content overflows.
+    • clip     → Similar to hidden, but doesn’t allow programmatic scrolling (newer CSS value).
+
+    🧭 Examples:
+       overflow: visible;     → Content goes outside the box.
+       overflow: hidden;      → Content cut off, no scroll.
+       overflow: scroll;      → Always shows scrollbars.
+       overflow: auto;        → Adds scrollbars only when needed.
+       overflow-x: scroll;    → Only horizontal scroll.
+       overflow-y: scroll;    → Only vertical scroll.
+
+    🧠 Notes:
+    - Use overflow carefully to prevent unwanted scrollbars.
+    - Combine overflow-x and overflow-y for finer control.
+    - Scrollbars may look different on various browsers/OS.
+    */

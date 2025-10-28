@@ -1,0 +1,29 @@
+div{
+    column-count: 3;
+    column-gap: 50px;
+    column-rule-style: solid;
+    column-rule-width: 1px;
+    column-rule-color: red;
+    /*column rule: 1px solid red */
+}
+
+   /*
+    column-count → 
+    Specifies the number of columns the content inside the element should be divided into.
+
+    column-gap → 
+    Sets the space (gap) between each column.
+
+    column-rule-style → 
+    Defines the style of the line (rule) drawn between columns 
+    (e.g., solid, dashed, dotted, double, etc.).
+
+    column-rule-width → 
+    Sets the thickness (width) of the line drawn between columns.
+
+    column-rule-color → 
+    Sets the color of the line drawn between columns.
+
+    column-rule (shorthand) → 
+    Combines width, style, and color into one line (e.g., column-rule: 1px solid red).
+    */ 

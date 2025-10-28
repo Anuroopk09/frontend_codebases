@@ -1,0 +1,35 @@
+#display{
+    border: 1px solid red;
+    display: inline-block;
+}
+
+.div1{
+    visibility: hidden;
+}
+
+/*
+
+block → Displays the element as a block-level element that starts on a new line and takes full width available.
+inline → Displays the element within the same line, only taking up as much width as its content.
+inline-block → Displays inline like inline elements, but allows setting width and height like block elements.
+visibility → Controls whether an element is visible or hidden while still keeping its space reserved in the layout.
+
+block
+1. Starts on a new line.
+2. Occupies the full width of its container.
+3. Allows setting height and width.
+
+inline
+1. Does not start on a new line (stays inline with text or other elements).
+2. Takes only the necessary width of its content.
+3. Does not allow setting height and width directly.
+
+inline-block
+1. Does not start on a new line (stays inline).
+2. Does not occupy full width of the container.
+3. Allows setting height and width like block elements.
+
+visibility
+- visible → Element is shown normally.
+- hidden → Element is invisible but still takes up layout space.
+*/

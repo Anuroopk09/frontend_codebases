@@ -1,0 +1,24 @@
+@media screen{
+    p{
+        font-size: 20px;
+    }
+}
+
+
+@media print{
+    p{
+        font-size: 30px;
+    }
+    img{
+        display: none;
+    }
+    div{
+        width: 50%;
+    }
+}
+
+/* 
+@media screen → applies only when the webpage is viewed on a screen (monitor, phone, tablet)
+
+@media print → applies only when the page is printed or in print preview
+*/

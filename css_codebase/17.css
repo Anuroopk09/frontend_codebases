@@ -1,0 +1,23 @@
+:root {
+    --primary-color: teal;
+    --btn-color: blueviolet;
+    --text-color: white;
+}
+
+#fun {
+    background-color: var(--primary-color);
+    height: 200px;
+}
+
+a {
+    padding: 10px 30px;
+    margin: 20px;
+    background-color: var(--btn-color);
+    color: var(--text-color);
+    text-decoration: none;
+}
+
+/*
+Functions: Used to call out properties and apply them across elements, eliminating the need to change each element individually.
+:root          -> Defines global CSS variables
+*/

@@ -1,0 +1,66 @@
+#parent {
+    border: 1px solid red;
+    padding: 20px;
+    width: 50%;
+    margin: 100px;
+
+}
+
+#one {
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    display: inline-block;
+    
+}
+
+#two {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    display: inline-block;
+    position: relative;
+    top: 50px;
+    left: 5px;
+    
+}
+
+#three {
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    display: inline-block;
+    position: absolute;
+}
+
+
+
+/*
+CSS POSITION PROPERTY
+
+Definition:
+position → Specifies how an element is positioned in the document and how its top, right, bottom, and left properties are applied.
+
+Types of Positioning:
+
+static
+- Default position for all elements.
+- Elements appear in normal document flow.
+- top, right, bottom, left properties have no effect.
+
+relative
+- Element is positioned relative to its normal position.
+- top, right, bottom, left move the element without affecting surrounding elements.
+
+absolute
+- Element is positioned relative to the nearest positioned ancestor (not static).
+- Removed from normal flow, and other elements act like it doesn’t exist.
+
+fixed
+- Element is positioned relative to the browser window.
+- Stays fixed in place even when the page is scrolled.
+
+sticky
+- Element acts like relative until a certain scroll point, then becomes fixed.
+- Useful for headers or navigation bars that stick to the top while scrolling.
+*/ 

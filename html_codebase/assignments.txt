@@ -1,0 +1,33 @@
+1-First to 4-Comments
+1.1-Create an HTML page titled "My First Webpage" with a line of text:"This is my first HTML page"
+
+1.2-Create a page with elements like h1 and p assigning 1 attribute to each
+
+1.3- Add comments to your previous 2 codes
+
+------------------------------------------
+5-Headings to 8-Links
+2.1-Create a HTML page titled "About Me" and write a Paragraph about yourself,also use
+formatting tags and line breaks whereever neccessary
+
+2.2-Make a small My Links page containing 3 links:
+1. To your favourite website
+2. To your favourite youtube Video
+3. Create a page with one long paragraph divided into two stanzas, 
+and make a link that jumps to the second stanza when clicked.
+
+2.3 Create your resume using paragraph formatting and link your social media handles(git,linkedin) to it.
+
+-----------------------------------------------------
+9 Image tag to 11 Tables
+3.1 Create your birthday invite --
+- Add a birthday card image from google
+- An unordered list mentioning what to bring(cake,ballons)
+Use proper headings Dtae Venue address tag whereverr neccessary
+ 
+3.2 Create an ordered list about the recipe of a dish you like,also upload images
+
+3.3 Student Marks Table
+Create a table with columns: Name, Roll Number, Subject, Marks.
+Fill in data for at least 5 students.
+Highlight the header row using <th>.

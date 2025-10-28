@@ -1,0 +1,99 @@
+/* @keyframes changecolor{
+    from{
+        background-color: red;
+    }to{
+        background-color: aqua;
+    }
+} */
+
+@keyframes changecolor {
+    0% {
+        background-color: #4285F4;
+    }
+
+    25% {
+        width: 300px;
+    }
+
+    50% {
+        background-color: #FBBC05;
+    }
+
+    75% {
+        width: 300px;
+    }
+
+    100% {
+        background-color: #F65314;
+    }
+}
+
+#animate {
+    background-color: red;
+    height: 200px;
+    width: 200px;
+    animation-name: changecolor;
+    animation-duration: 3s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+}
+
+#div2 {
+    background-color: red;
+    height: 200px;
+    width: 200px;
+    animation-name: changecolor;
+    animation-duration: 3s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    /* animation-direction: reverse; */
+    animation-timing-function: ease-out;
+}
+
+
+/* 
+@keyframes – defines the stages of an animation with keyframes showing how CSS properties change over time.
+
+animation-name – specifies the name of the @keyframes animation to apply.
+
+animation-duration – sets how long one animation cycle takes. 
+   → values: time in seconds (s) or milliseconds (ms), e.g., 2s, 500ms.
+
+animation-delay – defines the waiting time before the animation starts.
+   → values: time in s or ms, e.g., 1s, 0.5s (can be negative to start midway).
+
+animation-iteration-count – sets how many times the animation should repeat.
+   → values: a number (e.g., 3) or infinite (for endless looping).
+
+animation-direction – defines the direction of the animation on each cycle.
+   → values:
+       • normal – plays from start to end each time.
+       • reverse – plays from end to start.
+       • alternate – plays forward, then backward alternately.
+       • alternate-reverse – plays backward first, then forward alternately.
+
+animation-timing-function – defines the speed curve (acceleration/deceleration) of the animation.
+   → values:
+       • linear – constant speed.
+       • ease – slow start, fast middle, slow end.
+       • ease-in – slow start.
+       • ease-out – slow end.
+       • ease-in-out – slow start and end.
+       • cubic-bezier(x1, y1, x2, y2) – custom speed curve.
+
+animation-fill-mode – defines how styles are applied before and after animation execution.
+   → values:
+       • none – no styles applied outside the animation duration.
+       • forwards – retains final state after animation ends.
+       • backwards – applies initial state before animation starts.
+       • both – applies both forwards and backwards behavior.
+
+animation-play-state – controls whether the animation is running or paused.
+   → values: running | paused.
+
+animation – shorthand property that combines all of the above.
+   → syntax: animation: name duration timing-function delay iteration-count direction fill-mode play-state;
+
+Example:
+animation: changecolor 3s ease-in-out 1s infinite alternate both;
+*/

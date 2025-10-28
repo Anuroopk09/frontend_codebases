@@ -1,0 +1,11 @@
+/* Targets all divs in the code */
+div{
+    background-color: cadetblue;
+
+}
+
+/* Targets the overall body fo the HTML Page */
+body{
+    background-color: azure;
+    color: blueviolet;
+}

@@ -1,0 +1,41 @@
+body {
+    background-color: aqua;
+}
+
+
+#para1 {
+    background-color: aquamarine;
+    height: 250px;                  /* Sets the height of the element to 250 pixels */
+    width: 250px;                   /* Sets the width of the element to 250 pixels */
+}
+#para {
+    background-color: aquamarine;
+    border: 5px solid red;
+    height: 300px;                  /* Sets the height of the element */
+    width: 300px;                   /* Sets the width of the element */
+    max-height: 400px;              /* Maximum height the element can grow to */
+    max-width: 500px;               /* Maximum width the element can grow to */
+    padding: 10px;                   /* Adds space inside the element between content and border */
+    margin: 10px;                   /* Adds space outside the element, separating it from other elements */
+}
+
+    /*
+    POSSIBLE UNITS FOR HEIGHT & WIDTH:
+
+    Absolute units:
+    - px   → pixels (e.g., 250px)
+    - cm   → centimeters
+    - mm   → millimeters
+    - in   → inches
+    - pt   → points (1pt = 1/72 inch)
+    - pc   → picas (1pc = 12pt)
+
+    Relative units:
+    - %    → percentage relative to parent element (e.g., 50%)
+    - em   → relative to font-size of the element (e.g., 2em)
+    - rem  → relative to font-size of the root element (e.g., 2rem)
+    - vw   → 1% of viewport width
+    - vh   → 1% of viewport height
+    - vmin → smaller of vw or vh
+    - vmax → larger of vw or vh
+    */

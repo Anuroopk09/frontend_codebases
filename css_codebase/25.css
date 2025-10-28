@@ -1,0 +1,59 @@
+#parent {
+    padding: 20px;
+    width: 50%;
+    margin: 100px;
+    position: relative;
+    height: 250px;
+}
+
+
+
+#one {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    background-color: green;
+    top: 0;
+    left: 0;
+    z-index: 3;
+}
+
+#two {
+    background-color: blue;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: 50px;
+    left: 50px;
+    z-index: 2;
+}
+
+#three {
+    background-color: black;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: 100px;
+    left: 100px;
+    z-index: 1;
+}
+
+/* 
+All three child divs (#one, #two, #three) are absolutely positioned inside the parent, 
+which itself is relatively positioned — meaning the children's absolute positions 
+(top, left) are calculated with respect to the parent box.
+
+#one → position: absolute; top: 0; left: 0; 
+   → placed at the top-left corner of the parent.
+
+#two → position: absolute; top: 50px; left: 50px; 
+   → placed 50px down and 50px right from the parent’s top-left corner.
+
+#three → position: absolute; top: 100px; left: 100px; 
+   → placed 100px down and 100px right from the parent’s top-left corner.
+
+z-index defines the stacking order:
+   #one (z-index: 3) appears on top,
+   #two (z-index: 2) is below it,
+   #three (z-index: 1) is at the bottom.
+*/ 

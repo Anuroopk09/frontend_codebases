@@ -1,0 +1,55 @@
+#cover {
+    border: 2px solid red;
+    height: 200px;
+    width: 200px;
+    margin: 150px;
+}
+
+#content {
+    height: 200px;
+    width: 200px;
+    background-color: yellowgreen;
+    transform: perspective(300px) rotate3d(50, 50, 50, 30deg);
+}
+
+
+
+/*
+CSS 3D Transform Methods:
+
+1. Rotation:
+    rotateX(angle)         -> rotates element around X-axis
+    rotateY(angle)         -> rotates element around Y-axis
+    rotateZ(angle)         -> rotates element around Z-axis
+    rotate3d(x, y, z, angle) -> rotates around vector (x, y, z) in 3D space
+
+2. Translation:
+    translateZ(length)     -> moves element along Z-axis (closer/farther)
+    translate3d(x, y, z)   -> moves element in X, Y, Z directions
+    translateX(length)     -> moves along X-axis
+    translateY(length)     -> moves along Y-axis
+
+3. Scaling:
+    scaleZ(factor)         -> scales element along Z-axis
+    scale3d(x, y, z)       -> scales element in X, Y, Z directions
+    scaleX(factor)         -> scales along X-axis
+    scaleY(factor)         -> scales along Y-axis
+
+4. Skewing:
+    skewX(angle)           -> skews along X-axis
+    skewY(angle)           -> skews along Y-axis
+
+5. Perspective & 3D context:
+    perspective(length)    -> sets depth perception (can be on parent or via transform)
+    transform-style: preserve-3d -> keeps children in 3D space
+    backface-visibility: visible/hidden -> show/hide back face when rotated
+
+6. Matrix methods:
+    matrix3d(a1,a2,...a16) -> applies full 4x4 transformation matrix (complex transformations)
+    matrix(a,b,c,d,e,f)     -> 2D matrix (only 2D transforms, included for completeness)
+
+Notes:
+- `perspective` works best on the parent element for visual depth.
+- Combine rotate, translate, and scale for realistic 3D effects.
+- `transform-style: preserve-3d` is essential when transforming nested elements in 3D.
+*/

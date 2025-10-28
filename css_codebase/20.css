@@ -1,0 +1,14 @@
+img{
+    border: 1px solid red;
+    width: 500px;
+    height:400px;
+    object-fit:fill ;
+}
+/*
+object-fit properties:
+1. fill      – Image stretches to fill the container (may distort).
+2. contain   – Image scales to fit inside the container without cropping.
+3. cover     – Image fills the container completely; extra parts may be cropped.
+4. none      – Image keeps its original size, may overflow the container.
+5. scale-down – Image is scaled down to the smaller of 'none' or 'contain'.
+*/

@@ -1,0 +1,33 @@
+p{
+    border: 1px solid black;
+    overflow: auto;
+}
+
+#img1{
+    float: right;
+    width: 50px;
+    height:50px;
+}
+
+#img2{
+    width: 50px;
+    height:50px;
+    clear: right;
+    float:right;
+}
+
+/* 
+float: 
+   - Moves an element to the left or right side of its container, 
+     allowing other inline content (like text or images) 
+     to wrap around it.
+   - It removes the element from the normal flow 
+     but still keeps it inside the parent box.
+
+clear: 
+   - Prevents an element from being placed next to floated elements 
+     on the specified side (left, right, or both).
+   - Here, `clear: right;` ensures #img2 appears **below** 
+     any right-floated elements (like #img1), 
+     even though it’s also floated to the right.
+*/ 

@@ -1,0 +1,57 @@
+#div1 {
+    width: 70%;
+    float: left;
+    background-color: lawngreen;
+
+}
+
+#div2 {
+    width: 30%;
+    float: left;
+    background-color: rosybrown;
+}
+
+h1 {
+    font-size: 80px;
+
+}
+
+@media screen and (max-width:768px) {
+    #div1 {
+        width: 50%;
+        color: aqua;
+    }
+
+    #div2 {
+        width: 50%;
+        color: aquamarine;
+    }
+}
+
+@media screen and (max-width:400px) {
+    #div1 {
+        width: 100%;
+        color: beige;
+    }
+
+    #div2 {
+        width: 100%;
+        color: blueviolet;
+    }
+}
+
+
+/* 
+Responsiveness means a webpage’s layout and elements automatically adjust 
+to fit different screen sizes like phones, tablets, and desktops for better usability.
+  🔹 Common Device Width Breakpoints (approximate):
+    ------------------------------------------
+    • Extra Small Devices (Mobile Phones): up to 480px
+    • Small Devices (Large Phones): 481px – 768px
+    • Medium Devices (Tablets/iPads): 769px – 1024px
+    • Large Devices (Laptops/Small Desktops): 1025px – 1200px
+    • Extra Large Devices (Large Desktops/TV Screens): above 1200px
+*/
+
+/* To make videos and images responsive:
+width:100%, height:auto */

@@ -1,0 +1,44 @@
+table {
+    border: 1px solid black;
+    border-collapse: collapse;
+    empty-cells: hide;
+    table-layout: auto;
+    width: 100%;
+}
+
+caption {
+    border: 1px solid black;
+    caption-side: bottom;
+}
+
+tr {
+    border: 1px solid black;
+}
+
+th {
+    border: 1px solid black;
+    height: 30px;
+}
+
+td {
+    border: 1px solid black;
+    height: 15px;
+    padding: 5px;
+    text-align: center;
+}
+
+/* 
+TABLE STYLING:
+table - border-collapse: collapse; -> Collapses adjacent table cell borders into a single border
+      - empty-cells: hide; -> Hides borders and background of empty table cells
+      - table-layout: auto; -> Automatically adjusts column widths based on content
+      - width: 100%; -> Makes the table take up 100% of the container's width
+
+caption - caption-side: bottom; -> Positions the table caption at the bottom
+
+th - height: 30px; -> Sets the height of each header cell to 30 pixels
+
+td - height: 15px; -> Sets the height of each table cell to 15 pixels
+     padding: 5px; -> Adds 5 pixels of padding inside each table cell
+     text-align: center; -> Centers the text horizontally inside each table cell
+*/

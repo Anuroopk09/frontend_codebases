@@ -1,0 +1,26 @@
+a {
+    text-decoration: none;     /* Removes underline from all links by default */
+}
+
+a:link {
+    color: yellowgreen;        /* Sets the color of unvisited links */
+}
+
+a:visited {
+    color: black;              /* Sets the color of links the user has already visited */
+}
+
+a:hover {
+    color: orange;             /* Sets the color of a link when the mouse hovers over it */
+}
+
+a:active {
+    color: red;                /* Sets the color of a link when it is being clicked */
+}
+
+/* Notes on link pseudo-classes:
+   :link    - Targets links that have not been visited
+   :visited - Targets links that have been visited
+   :hover   - Targets links when the mouse pointer is over them
+   :active  - Targets links at the moment they are clicked
+*/

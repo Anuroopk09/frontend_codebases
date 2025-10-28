@@ -1,0 +1,23 @@
+img {
+    filter: brightness(150%);
+}
+
+    /*
+    CSS Filter Options:
+
+    1. brightness()   → Adjusts brightness. 100% = normal, >100% = brighter, <100% = darker
+    2. contrast()     → Adjusts contrast. 100% = normal, >100% = higher contrast, <100% = lower contrast
+    3. saturate()     → Adjusts color saturation. 100% = normal, >100% = more vivid, <100% = less vivid
+    4. grayscale()    → Converts image to shades of gray. 0% = original, 100% = fully grayscale
+    5. sepia()        → Applies a warm brown tone. 0% = original, 100% = full sepia
+    6. hue-rotate()   → Rotates colors around the color wheel. Value in degrees (0deg–360deg)
+    7. invert()       → Inverts colors. 0% = original, 100% = full inversion
+    8. opacity()      → Makes element transparent. 100% = opaque, 0% = fully transparent
+    9. drop-shadow()  → Adds a shadow. Syntax: drop-shadow(offsetX offsetY blurRadius color)
+    10. blur()        → Blurs the image. Value in pixels (e.g., blur(5px))
+
+    Multiple filters can be combined: 
+    Example → filter: brightness(120%) contrast(110%) saturate(130%) blur(2px);
+    */
+
+

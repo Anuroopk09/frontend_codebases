@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms in HTML</title>
+</head>
+
+<body>
+    <!-- Types of inputs -->
+    <div>
+        <form>
+            Name:<input type="text"><br> <!-- Text input for short text like name -->
+            Colour:<input type="color"><br> <!-- Lets user pick a color -->
+            Date:<input type="date"><br> <!-- Lets user select a date -->
+            Time:<input type="time"><br> <!-- Lets user select a time -->
+            Email:<input type="email"><br> <!-- Input must be a valid email format -->
+            Password:<input type="password"><br> <!-- Input hidden with dots for passwords -->
+            Number:<input type="number"><br> <!-- Only numeric input allowed -->
+            URL:<input type="url"><br> <!-- Input must be a valid website link -->
+            Upload:<input type="file"><br> <!-- Lets user choose a file to upload -->
+            Range:<input type="range" min="0" max="100"><br> <!-- Slider for number selection -->
+
+            <input type="radio" name="option">Check me<br> <!-- Select only one option in group -->
+            <input type="checkbox" name="option1">Check me<br> <!-- Can select multiple options -->
+
+            <textarea rows="4" cols="50" placeholder="Type here..."></textarea><br> <!-- Multi-line text input for comments, address, etc. -->
+
+            <select>
+                <option>AUDI</option>
+                <option>BMW</option>
+                <option>Mercedes</option>
+            </select><br> <!-- Dropdown menu to select one option -->
+
+            <select>
+                <optgroup label="Cars">
+                    <option>AUDI</option>
+                    <option>BMW</option>
+                    <option>Mercedes</option>
+                </optgroup>
+                <optgroup label="Sports">
+                    <option>Cricket</option>
+                    <option>Badminton</option>
+                    <option>Tennis</option>
+                </optgroup>
+            </select><br> <!-- Dropdown with grouped options for better organization -->
+
+            Reset:<input type="reset"><br> <!-- Clears all form inputs to default -->
+            <input type="submit" value="Submit form"><br> <!-- Submits form data to server -->
+
+        </form>
+    </div>
+</body>
+
+</html>

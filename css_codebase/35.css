@@ -1,0 +1,67 @@
+.flex-container {
+    background-color: indianred;
+    display: flex;
+    /* flex-direction: row; */
+    flex-wrap: wrap;
+    /* justify-content: center; */
+    height: 400px;
+    align-items: center;
+    align-content: space-between;
+
+}
+
+.flex-child {
+    background-color: wheat;
+    margin: 20px;
+    padding: 20px;
+    width: 100px;
+    text-align: center;
+}
+
+/*
+Flex (Flexible Box Layout) is a CSS layout model that allows elements inside a container to automatically adjust their 
+size and position to fit the available space.It provides an easy way to align, distribute, and reorder items along horizontal or vertical axes.
+
+display → Activates the Flexbox layout model when set to "flex". 
+Children become flex items and can be arranged along flexible rows or columns.
+
+flex-direction → Determines the direction in which flex items are placed inside the container.
+Values:
+    row → Items go left to right (default).
+    row-reverse → Items go right to left.
+    column → Items go top to bottom.
+    column-reverse → Items go bottom to top.
+
+flex-wrap → Controls whether flex items should stay on one line or wrap onto multiple lines.
+Values:
+    nowrap → All items stay on one line, may overflow.
+    wrap → Items wrap onto new lines from top to bottom.
+    wrap-reverse → Items wrap onto new lines in reverse order (bottom to top).
+
+justify-content → Aligns items horizontally along the main axis.
+Values:
+    flex-start → All items packed at the start (left/top depending on direction).
+    flex-end → All items packed at the end.
+    center → All items centered along the main axis.
+    space-between → Equal gaps between items; no space at edges.
+    space-around → Equal gaps around items; half-space at edges.
+    space-evenly → Perfectly equal gaps between and around all items.
+
+align-items → Aligns items vertically along the cross axis (within one line).
+Values:
+    stretch → (default) Items stretch to fill container height.
+    flex-start → Items aligned to top (start) of cross axis.
+    flex-end → Items aligned to bottom (end) of cross axis.
+    center → Items vertically centered.
+    baseline → Items aligned by their text baseline.
+
+align-content → Aligns multiple rows (or columns) of flex items along the cross axis; works only if wrapping is enabled.
+Values:
+    stretch → (default) Lines stretch to fill remaining space.
+    flex-start → All lines packed at the top/start of container.
+    flex-end → All lines packed at the bottom/end.
+    center → All lines centered vertically.
+    space-between → Equal space between lines.
+    space-around → Equal space around each line.
+    space-evenly → Equal space between and around lines.
+*/

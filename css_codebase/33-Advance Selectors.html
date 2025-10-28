@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advance Selectors in CSS</title>
+    <link rel="stylesheet" href="./33.css">
+</head>
+<body>
+     <h2>1. Attribute Selector</h2>
+    <a href="https://example.com">Example Link</a>
+    <a href="https://other.com">Other Link</a>
+
+    <hr>
+
+    <h2>2. Universal Selector</h2>
+    <p>This text uses the same font for all elements due to the universal selector.</p>
+
+    <hr>
+
+    <h2>3. Combinator Selectors</h2>
+
+    <div class="red-p">
+        <p>This is inside <code>.red-p</code></p>
+        <span>→ This span is a direct child of .red-p</span>
+        <div>
+            <span>→ This span is nested deeper (descendant)</span>
+        </div>
+    </div>
+
+    <h1>This H1 comes right after .red-p (Adjacent Sibling)</h1>
+    <h1>This H1 also follows .red-p but not directly (General Sibling)</h1>
+
+    
+</body>
+</html>

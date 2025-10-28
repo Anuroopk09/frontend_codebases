@@ -1,0 +1,22 @@
+/* 1.Element selector */
+p{
+    color: brown;
+}
+
+/* Id selector */
+#first{
+    color: red;
+}
+
+/* Class Selector */
+.second{
+    color: aqua;
+}
+
+#heading{
+    background-color: black;
+}
+
+.underline{
+    text-decoration: underline;
+}

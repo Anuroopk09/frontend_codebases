@@ -1,0 +1,62 @@
+#div1 {
+    height: 100px;
+    width: 100px;
+    border: 1px solid grey;
+    background-image: linear-gradient(aqua, blue);
+}
+
+#div2 {
+    height: 100px;
+    width: 100px;
+    border: 1px solid grey;
+    background-image: radial-gradient(aqua, blue);
+}
+
+#div3 {
+    height: 100px;
+    width: 100px;
+    border: 1px solid grey;
+    background-image: conic-gradient(from 0deg,aqua, blue);
+}
+
+/*
+    🌈 CSS Gradient Types and Properties
+
+    1. linear-gradient(direction, color1, color2, ...)
+       → Creates a straight-line color blend.
+       → Directions:
+          - to right / to left / to top / to bottom
+          - to top right / to bottom left / etc.
+          - or use degrees (e.g., 45deg, 180deg)
+       → Example: linear-gradient(to right, red, yellow)
+
+    2. radial-gradient(shape size at position, color1, color2, ...)
+       → Colors radiate outward from a center point.
+       → Shapes: circle | ellipse
+       → Sizes: closest-side | farthest-side | closest-corner | farthest-corner
+       → Example: radial-gradient(circle, red, yellow)
+
+    3. conic-gradient(from angle at position, color1, color2, ...)
+       → Colors sweep around a center point (like a pie chart).
+       → Example: conic-gradient(from 0deg, red, yellow, green, blue)
+
+    4. repeating-linear-gradient(direction, color1, color2, ...)
+       → Repeats a linear gradient pattern.
+       → Example: repeating-linear-gradient(45deg, red, yellow 10%, green 20%)
+
+    5. repeating-radial-gradient(shape size, color1, color2, ...)
+       → Repeats circular or elliptical gradient bands.
+       → Example: repeating-radial-gradient(circle, red, yellow 10%, green 20%)
+
+    6. repeating-conic-gradient(from angle, color1, color2, ...)
+       → Repeats a conic gradient in circular pattern.
+       → Example: repeating-conic-gradient(red 0deg 10deg, yellow 10deg 20deg)
+
+    💡 Notes:
+    - You can use transparency: rgba(255,0,0,0.5)
+    - You can mix multiple gradients using commas:
+      Example:
+      background-image: 
+          linear-gradient(to right, red, yellow),
+          radial-gradient(circle at center, white, transparent);
+    */

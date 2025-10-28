@@ -1,0 +1,76 @@
+.grid-container{
+    background-color: indianred;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 200px 300px 200px ; 
+    /* to insert another column: 200px 400px auto 100px (just add a value and new column is created) */
+    /* can also use auto auto auto;200px 50% auto;..... */
+    grid-template-rows: 100px 150px 150px;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    justify-content: center;
+    align-content: space-evenly;
+
+}
+
+.grid-item{
+    background-color: wheat;
+    border: 1px solid black;
+    padding: 20px;
+    font: 40px;
+    text-align: center;
+}
+
+#grid-1{
+    /* grid-column-start:1 ;
+    grid-column-end: 4; */
+    /* Shortcut */
+    /* grid-column:1/4 ; */
+}
+
+#grid-5{
+    grid-area: 1/2/4/5;
+}
+
+/*
+CSS Grid Properties Reference:
+
+Container Properties:
+display → Defines grid layout.
+    Values: grid (block-level), inline-grid (inline-level).
+
+grid-template-columns → Sets number and width of columns.
+grid-template-rows → Sets number and height of rows.
+    Values: fixed units (px, %, em), auto, fr (fractional), minmax(min,max), repeat(count, value).
+
+grid-template-areas → Defines named areas of the grid; items can be assigned using grid-area.
+
+gap → Sets spacing between rows and columns.
+grid-column-gap → Horizontal space between columns.
+grid-row-gap → Vertical space between rows.
+
+justify-content → Aligns entire grid horizontally inside container.
+align-content → Aligns entire grid vertically inside container.
+    Values: start, end, center, stretch, space-between, space-around, space-evenly.
+
+justify-items → Aligns grid items horizontally within their cells.
+align-items → Aligns grid items vertically within their cells.
+    Values: start, end, center, stretch.
+
+Item Properties:
+grid-column-start / grid-column-end → Horizontal start and end lines for item.
+grid-row-start / grid-row-end → Vertical start and end lines for item.
+grid-column → Shorthand for grid-column-start / grid-column-end.
+grid-row → Shorthand for grid-row-start / grid-row-end.
+grid-area → Shorthand for row-start / column-start / row-end / column-end; also used for named areas.
+
+justify-self → Aligns a single item horizontally inside its cell.
+align-self → Aligns a single item vertically inside its cell.
+    Values: start, end, center, stretch.
+
+Other Useful Features:
+repeat(count, value) → Repeats columns or rows (e.g., repeat(3, 1fr)).
+minmax(min,max) → Sets flexible track size with minimum and maximum values.
+auto-fill / auto-fit → Automatically fills grid with columns/rows based on available space.
+subgrid → Nested grid inherits rows/columns from parent grid.
+*/

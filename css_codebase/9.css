@@ -1,0 +1,14 @@
+    
+/* Step 7: In your CSS file, apply the font using the 'font-family' property  */
+h1 {
+    font-family: "McLaren", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+p{
+ font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}

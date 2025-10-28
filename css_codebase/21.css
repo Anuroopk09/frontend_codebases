@@ -1,0 +1,85 @@
+li:first-child{
+    color: red;
+}
+
+li:last-child{
+    color: brown;
+}
+li:nth-child(even){
+    text-decoration: underline;
+}
+
+li:nth-child(3n+1){
+    text-transform: uppercase;
+}
+
+/*
+:first-child → Targets the very first child element of its parent.
+
+:last-child → Targets the very last child element of its parent.
+
+:nth-child(even) → Targets all child elements positioned at even numbers (2nd, 4th, 6th, etc.).
+
+:nth-child(3n+1) → Targets every 3rd child starting from the 1st (1st, 4th, 7th, etc.).
+*/
+
+input:focus{
+    border:3px solid red
+}
+
+/*
+:focus → Targets the element that is currently active or selected by the user, 
+such as when a user clicks inside an input field or uses the Tab key to focus on it.
+*/
+
+/*
+CSS PSEUDO-CLASSES
+
+ Structural 
+:first-child       → Selects the first child of its parent
+:last-child        → Selects the last child of its parent
+:nth-child(n)      → Selects the nth child (can use formulas like 2n+1)
+:nth-last-child(n) → Selects the nth child from the end
+:first-of-type     → Selects the first of its type within parent
+:last-of-type      → Selects the last of its type within parent
+:nth-of-type(n)    → Selects the nth element of its type
+:nth-last-of-type(n)→ Selects the nth element of its type from end
+only-child         → Selects element if it is the only child
+only-of-type       → Selects element if it is the only of its type
+empty              → Selects elements with no children
+
+User Interaction 
+:hover             → When the user hovers over an element
+:active            → When an element is being activated (clicked)
+:focus             → When an element is focused
+:focus-within      → When an element or its descendants are focused
+:focus-visible     → When an element should indicate focus (keyboard focus)
+:enabled           → Enabled form elements
+:disabled          → Disabled form elements
+:checked           → Checked checkboxes or radio buttons
+:indeterminate     → Partially checked checkbox
+:valid             → Form element has valid value
+:invalid           → Form element has invalid value
+:required          → Form element has required attribute
+:optional          → Form element without required attribute
+:read-only         → Form element is read-only
+:read-write        → Form element is editable
+
+ Link
+:link              → Unvisited link
+:visited           → Visited link
+
+ Tree and Negation 
+:not(selector)     → Selects everything that does NOT match the selector
+:is(selector)      → Matches any of a list of selectors
+:where(selector)   → Like :is() but has zero specificity
+
+ Language and Direction 
+:lang(language)    → Select elements with specific language attribute
+:dir(ltr/rtl)      → Select elements based on text direction
+
+ Other Special 
+:target            → Element targeted by fragment identifier (#id)
+:root              → Selects the root element (html)
+
+*/

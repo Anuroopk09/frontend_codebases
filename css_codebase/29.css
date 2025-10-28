@@ -1,0 +1,64 @@
+#div1 {
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    margin: 100px;
+    transition-property: width, background-color, height, transform, opacity;
+    /* list of properties to animate */
+    transition-duration: 1s;
+    /* how long the animation takes */
+    transition-timing-function: ease;
+    /* speed curve: linear, ease-in, ease-out, ease-in-out, cubic-bezier(...) */
+    transition-delay: 0s;
+    /* delay before transition starts */
+}
+
+#div1:hover {
+    width: 200px;
+    height: 150px;
+    background-color: aqua;
+    transform: rotate(45deg);
+    opacity: 0.7;
+}
+
+/*
+Other transitionable CSS properties include:
+- color, background-color
+- width, height, max-width, max-height, min-width, min-height
+- margin, padding, border-width, border-color, border-radius
+- opacity, visibility
+- transform (rotate, scale, translate, skew)
+- box-shadow, text-shadow
+- filter (blur, brightness, contrast, etc.)
+- flex, grid properties
+*/
+
+
+/* 
+Speed Curve
+
+1. linear
+   - Moves at a constant speed from start to finish.
+   - Example: element width grows steadily over time, no acceleration or deceleration.
+
+2. ease-in
+   - Starts slowly, then speeds up towards the end.
+   - Good for objects entering the screen or starting motion gently.
+
+3. ease-out
+   - Starts fast and slows down towards the end.
+   - Often used for exiting elements or stopping motion smoothly.
+
+4. ease-in-out
+   - Starts slow, speeds up in the middle, then slows down at the end.
+   - Smooth acceleration and deceleration; looks natural for many motions.
+
+5. cubic-bezier(p1, p2, p3, p4)
+   - Fully custom speed curve defined by 4 control points.
+   - Allows precise control over acceleration and deceleration.
+   - Example: cubic-bezier(0.25, 0.1, 0.25, 1.0) is the default 'ease'.
+   - You can create bouncy or unusual timing effects with custom values.
+
+
+
+*/

@@ -1,0 +1,28 @@
+#border {
+    border-style: solid;                  /* Single solid line border */
+    border-width: 5px;                    /* Defines the thickness of the border */
+    /* border-width: 5px 10px 15px 20px   (top right bottom left) */
+    border-color: red;                  /* Defines the color of the border */
+    /* border-color: red blue green yellow (top right bottom left) */
+    /* border: 5px solid green;           Shortcut */
+    border-top-color: aqua;             /* For individual styling, can also use border-bottom, left and right */
+    /* border-top: 5px solid green;       Shortcut */
+    border-radius: 5px;                   /* To make corners of the border rounded *
+    /*border-radius: 5px 10px 15px 20px   (top right bottom left*/
+}
+
+/*
+BORDER STYLES:
+none                       → no border
+solid                      → single solid line border
+dotted                     → small round dots as border
+dashed                     → broken dashed line border
+double                     → two solid lines with space between them
+groove                     → 3D grooved border based on color shading
+ridge                      → 3D ridged border, opposite of groove
+inset                      → makes element appear embedded (3D effect)
+outset                     → makes element appear raised (3D effect)
+hidden                     → hides the border (used mostly in tables)
+solid dotted               → top & bottom = solid, left & right = dotted
+solid dotted dashed double → top = solid, right = dotted, bottom = dashed, left = double
+*/
